@@ -39,7 +39,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    box-shadow: 0 4px 41px rgb(14 55 54 / 20%);
     padding: 15px 10%;
     transition: 0.2s;
 }
@@ -231,16 +231,6 @@ a:hover::before {
     font-weight: 500;
     margin: 0.2rem 0 0.5rem;
 }
-.box .btn{
-    border: 2px solid white;
-    color: white;
-}
-.box .btn:hover {
-    background: white;
-    color: var(--second-color);
-    padding: 10px;
-    transition: .5s ease;
-}
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -305,14 +295,18 @@ a:hover::before {
     font-size: 27px;
     margin: 0.5rem;
 }
-@media (min-device-width: 375px) and (max-device-width: 1024px) {
+@media (min-device-width: 320px) and (max-device-width: 1024px) {
     header {
         padding: 2rem 10%;
     }
     .navbar{
     transform: scale(1.5);
     }
+}
+@media (min-device-width: 320px) and (max-device-width: 611px) {
     .about-img {
-        float: right;
+        display: inline-flex;
+        height: 30%;
+        margin: 15%;
     }
 }
