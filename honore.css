@@ -303,7 +303,7 @@ a:hover::before {
     transform: scale(1.5);
     }
 }
-@media (min-device-width: 320px) and (max-device-width: 611px) {
+@media (min-device-width: 227px) and (max-device-width: 611px) {
     .about-img {
         display: inline-flex;
         height: 30%;
